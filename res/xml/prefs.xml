@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <CheckBoxPreference
+	    android:title="表扬声"
+	    android:defaultValue="true"
+	    android:key="checkbox"
+	    android:summary="要不要听来自妈妈的表扬" />
+	<ListPreference
+	    android:title="做对几题"
+	    android:key="list"
+	    android:summary="这次一共做几题"
+	    android:entries="@array/list"
+	    android:entryValues="@array/lValue"
+	    />
+
+</PreferenceScreen>
